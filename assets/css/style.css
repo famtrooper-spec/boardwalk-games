@@ -1,18 +1,35 @@
-.macondo-regular {
-  font-family: "Macondo", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.inter-<uniquifier> {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
 /*global styles*/
+:root {
+    --primary-font: inter, sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color:#3a2620; /* dark brown */
+    --secondary-color:#aa9581; /* light brown */
+    --highlight-color:#416a8e; /* blue */
+    --light-highlight-color:#7a9fc2; /* light blue */
+}
 
-h1 {
-    font-family:macondo-regular;
+body {
+    font-family: var(--primary-font);
+}
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
+}
+
+/*grid visualisation for testing*/
+.container, .row{
+    border: 1px solid red;
+}
+
+.col-12 {
+    border: 1px solid blue;
+    background-color: #7a9fc2;
 }
