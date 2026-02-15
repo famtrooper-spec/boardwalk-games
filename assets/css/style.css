@@ -24,7 +24,7 @@ h3 {
     color: var(--highlight-color);
 }
 
-/*grid visualisation for testing*/
+/*grid visualisation for testing
 .container, .row{
     border: 1px solid red;
 }
@@ -33,3 +33,4 @@ h3 {
     border: 1px solid blue;
     background-color: #7a9fc2;
 }
+*/

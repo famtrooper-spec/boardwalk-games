@@ -15,53 +15,80 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/2ef8fec006.js" crossorigin="anonymous"></script>
     <title>Boardwalk Games | Home </title>
 
 </head>
 
 
 <!--classes on body set to work with mt-auto on footer to ensure it stays at the bottom of the page -->
+
 <body class="d-flex flex-column min-vh-100">
 
     <!--Navigation -->
-    <div>Navigation</div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo-sm.png" alt="Boardwalk Games Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="games-library.html">Games</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- Header with caroussel-->
-     <header class="container">
+    <header class="container">
         <div class="row">
             <div class="col-12 col-xl-6">Boardwalk Games</div>
             <div class="col-12 col-xl-6">kl;dfngkldsngldskn</div>
         </div>
-     </header>
+    </header>
 
-     <!--main element to hold all key sections of the home page. it is not part of the grid structure-->   
-<main>
-    <!--services section-->
-    <section class="container">
-        <div class="row">
-        <div class="col-12">Services section heading</div>
-        <div class="col-12 col-md-6 col-xl-3">Services card </div>
-        <div class="col-12 col-md-6 col-xl-3"> Services card</div>
-        <div class="col-12 col-md-6 col-xl-3"> Services card</div>
-        <div class="col-12 col-md-6 col-xl-3"> Services card</div>
+    <!--main element to hold all key sections of the home page. it is not part of the grid structure-->
+    <main>
+        <!--services section-->
+        <section class="container">
+            <div class="row">
+                <div class="col-12">Services section heading</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card </div>
+                <div class="col-12 col-md-6 col-xl-3"> Services card</div>
+                <div class="col-12 col-md-6 col-xl-3"> Services card</div>
+                <div class="col-12 col-md-6 col-xl-3"> Services card</div>
+            </div>
+        </section>
+    </main>
+
+    <!--footer/ contact section-->
+
+    <!--mt-auto added to push footer to bottom of page -->
+    <footer class="mt-auto">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <!--contact info-->
+                <div class="col-12"> contact section heading</div>
+                <div class="col-12 col-md-6 col-xl-4">contact info and social links</div>
+                <div class="col-12 col-md-6 col-xl-4">openig times</div>
+            </div>
         </div>
-    </section>
-</main>
-
-<!--footer/ contact section-->
-
-<!--mt-auto added to push footer to bottom of page -->
-<footer class="mt-auto">
-    <div class="container">
-    <div class="row justify-content-center">
-    
-    <!--contact info-->
-    <div class="col-12"> contact section heading</div>
-    <div class="col-12 col-md-6 col-xl-4">contact info and social links</div>
-    <div class="col-12 col-md-6 col-xl-4">openig times</div>
-    </div>
-    </div>
-</footer>
+    </footer>
 
 
 
