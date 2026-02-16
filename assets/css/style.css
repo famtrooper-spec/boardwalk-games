@@ -33,6 +33,27 @@ h2 {
 .sub-heading-color {
     color: var(--highlight-color);
 }
+/*buttons*/
+.custom-button-filled {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+.custom-button-filled:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color:white;
+}
+.custom-button-outline {
+    border:2px solid var(--highlight-color);
+    padding: 7px 25px;
+    color:var(--highlight-color);
+    
+}
+.custom-button-outline:hover {
+    background-color: var(--highlight-color);
+    color:white;
+}
 /* navbar*/
 #nav-bar {
     background-color: var(--primary-color);
