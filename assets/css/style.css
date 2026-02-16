@@ -60,6 +60,24 @@ h2 {
 #services .card {
     margin-bottom:1.5rem;
 }
+#new-games .card-footer {
+    font-weight:bold;
+    color:var(--highlight-color);
+    background-color: transparent;
+    border:transparent;
+}
+#fav-games .card-footer {
+    font-weight:bold;
+    color:var(--highlight-color);
+    background-color: transparent;
+    border:transparent;
+}
+#fav-games .card {
+    border:none;
+}
+#new-games .card {
+    border:none;
+}
 /*media queries*/
 
 /*for medium screens 768px and up*/
@@ -73,14 +91,14 @@ h2 {
  /*for medium screens 992px and up*/
 @media screen and (min-width: 992px) {
      /*make all services cards the same height for consistency*/
-    #services .card-body {
+    #services .card-body{
         min-height: auto;
     }
 }
 /*for medium screens 1200px and up*/
 @media screen and (min-width: 1200px) {
      /*make all services cards the same height for consistency*/
-    #services .card-body {min-height: 220px;
+    #services .card-body{min-height: 220px;
     }  
 }
 
