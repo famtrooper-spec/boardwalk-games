@@ -78,6 +78,7 @@ h2 {
 }
 .submit-button {
     justify-self: right;
+    padding-bottom: 2rem;
 }
 /* navbar*/
 #nav-bar {
