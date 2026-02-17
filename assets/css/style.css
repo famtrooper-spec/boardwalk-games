@@ -74,6 +74,9 @@ h2 {
     padding: 5px 10px;
     font-size: 0.8rem;
 }
+.submit-button {
+    justify-self: right;
+}
 /* navbar*/
 #nav-bar {
     background-color: var(--primary-color);
