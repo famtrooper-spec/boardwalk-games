@@ -69,11 +69,11 @@ h2 {
 
 /* Navbar */
 
-#navbar {
+#nav-bar {
     background-color: var(--primary-color);
 }
 
-#navbar .logo {
+#nav-bar .logo {
     width: 30px;
 }
 
