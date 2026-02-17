@@ -87,8 +87,7 @@ h2 {
     width: 30px;
 }
 .section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top:4rem; /* add padding to the top of each section to prevent content being hidden behind the fixed navbar when using anchor links */
 }
 /*header*/
 #header .lead {
