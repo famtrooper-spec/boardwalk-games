@@ -54,6 +54,26 @@ h2 {
     background-color: var(--highlight-color);
     color:white;
 }
+/*events section*/
+/* Events */
+
+#events .table {
+    /* events table font size small enough that 
+      the table doesn't overflow on xs screens. 
+      Size set back to 1rem in a media query 
+      for sm screens and up */
+    font-size: 0.7rem;
+}
+.student-discount {
+    background-color: var(--highlight-color);
+    font-weight: bold;
+    color: white;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+}
 /* navbar*/
 #nav-bar {
     background-color: var(--primary-color);
@@ -142,6 +162,10 @@ h2 {
     /*make all services cards the same height for consistency*/
     #services .card-body {
         min-height: 191px;
+        
+    }
+    .student-discount {
+        font-size: 1rem;
     }
 }
  /*for medium screens 992px and up*/
