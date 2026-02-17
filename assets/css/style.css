@@ -12,6 +12,7 @@
 
 body {
     font-family: var(--primary-font);
+    padding-top: 57.64px; /* height of navbar to prevent content being hidden behind it */
 }
 h1,
 h2,
@@ -54,6 +55,7 @@ h2 {
     background-color: var(--highlight-color);
     color:white;
 }
+
 /*events section*/
 /* Events */
 
